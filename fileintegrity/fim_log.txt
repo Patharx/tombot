@@ -1,0 +1,23 @@
+[2026-06-12 17:54:15] NEW FILE: suspicious.txt
+[2026-06-12 17:54:25] NEW FILE: suspicious.txt
+[2026-06-12 17:54:35] NEW FILE: suspicious.txt
+[2026-06-12 17:54:45] NEW FILE: suspicious.txt
+[2026-06-12 17:54:55] NEW FILE: suspicious.txt
+[2026-06-12 17:55:05] NEW FILE: suspicious.txt
+[2026-06-12 17:55:05] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d
+[2026-06-12 17:55:15] NEW FILE: suspicious.txt
+[2026-06-12 17:55:15] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d
+[2026-06-12 17:55:25] NEW FILE: suspicious.txt
+[2026-06-12 17:55:25] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d
+[2026-06-12 17:55:35] NEW FILE: suspicious.txt
+[2026-06-12 17:55:35] DELETED: important.txt
+[2026-06-12 17:55:35] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d
+[2026-06-12 17:55:45] NEW FILE: suspicious.txt
+[2026-06-12 17:55:45] DELETED: important.txt
+[2026-06-12 17:55:45] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d
+[2026-06-12 17:55:56] NEW FILE: suspicious.txt
+[2026-06-12 17:55:56] DELETED: important.txt
+[2026-06-12 17:55:56] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d
+[2026-06-12 17:56:06] NEW FILE: suspicious.txt
+[2026-06-12 17:56:06] DELETED: important.txt
+[2026-06-12 17:56:06] MODIFIED: secret.txt | Old: 9826e31a3e6d2235 | New: 1ded2a2f3ec4617d

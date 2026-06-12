@@ -1,0 +1,16 @@
+{
+  "directory": "watched_folder",
+  "created": "2026-06-12T17:52:41.813490",
+  "files": {
+    "important.txt": {
+      "hash": "6ec314bb88ef8d7552434c4ba29bb027f385ee7832848076155087642cc0c02b",
+      "size": 58,
+      "modified": 1781303179.938115
+    },
+    "secret.txt": {
+      "hash": "9826e31a3e6d223504c80a7e2e8b0bc127994a560b693969d86d934e4f46d2b1",
+      "size": 45,
+      "modified": 1781303110.5279598
+    }
+  }
+}
