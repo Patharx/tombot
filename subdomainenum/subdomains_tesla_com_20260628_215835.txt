@@ -1,0 +1,19 @@
+============================================================
+🧙 GANDALF'S SUBDOMAIN ENUMERATION REPORT
+============================================================
+Target:  tesla.com
+Scanned: 2026-06-28 21:58:35
+Total:   9 subdomains found
+============================================================
+
+BRUTE FORCE RESULTS:
+----------------------------------------
+  shop.tesla.com                                → 23.213.44.56
+  www.tesla.com                                 → 23.213.44.56
+  marketing.tesla.com                           → 13.111.47.196
+  mobile.tesla.com                              → 23.213.44.56
+  auth.tesla.com                                → 23.213.44.56
+  sso.tesla.com                                 → 23.213.44.56
+  billing.tesla.com                             → 23.213.44.56
+  accounts.tesla.com                            → 23.213.44.56
+  static.tesla.com                              → 23.213.44.56
