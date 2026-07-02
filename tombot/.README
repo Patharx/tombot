@@ -1,0 +1,146 @@
+# 🌿 TomBot
+
+A Lord of the Rings themed Discord utility bot powered by Anthropic's Claude AI.
+TomBot responds in character as Tom Bombadil — the oldest, most cheerful, and most
+mysterious being in Middle-earth — bringing cybersecurity tools and productivity
+commands to your Discord server.
+
+---
+
+## ✨ Commands
+
+### 🌿 Tom Commands
+| Command | Description |
+|---|---|
+| `!tom [question]` | Talk to Tom Bombadil — he responds in character |
+| `!sing` | Tom sings a merry song from the Old Forest |
+
+### 🔐 Cybersecurity Tools
+| Command | Description |
+|---|---|
+| `!pwcheck [password]` | Analyze password strength — message auto-deleted for security |
+| `!hash [type] [text]` | Generate MD5, SHA1, SHA256, or SHA512 hashes |
+| `!whois [domain]` | Domain lookup and DNS resolution |
+| `!ipinfo [ip]` | IP address geolocation — country, region, city, ISP, timezone |
+
+### 📋 Productivity
+| Command | Description |
+|---|---|
+| `!calc [expression]` | Calculator with math expression support |
+| `!remind [minutes] [message]` | Set a reminder — Tom pings you when time is up |
+| `!poll [question]` | Create a yes/no reaction poll |
+| `!help` | Show all available commands |
+
+---
+
+## 🔐 Security Features
+
+**`!pwcheck` auto-deletes your message** immediately after submission so no one
+else in the server can see the password you typed. The strength analysis is
+returned in the channel without exposing the original input.
+
+Password analysis covers:
+- Length scoring (8+ / 12+ / 16+ characters)
+- Character diversity (uppercase, lowercase, numbers, symbols)
+- Common password detection
+- Repeated pattern detection
+
+---
+
+## 🌿 Why Tom Bombadil?
+
+Tom Bombadil is the oldest being in Middle-earth — cheerful, all-knowing, and
+completely unbothered by darkness. The One Ring has no power over him.
+
+That personality makes him the perfect utility bot — helpful and knowledgeable
+about everything, always in good spirits no matter what you ask.
+
+---
+
+## 🛠️ Built With
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude%20AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+
+---
+
+## 🚀 Setup & Installation
+
+### Prerequisites
+- Python 3.10+
+- A Discord Developer account
+- An Anthropic API account
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Patharx/tombot.git
+cd tombot
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Create your .env file
+
+DISCORD_TOKEN=your_discord_bot_token_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+### 4. Run the bot
+```bash
+python tombot.py
+```
+
+---
+
+## ☁️ Deployment
+
+TomBot is configured for deployment on Railway via the included `railway.toml`.
+
+1. Push your code to GitHub
+2. Connect your repo to Railway
+3. Add your environment variables in the Railway dashboard
+4. Railway deploys automatically on every push
+
+---
+
+## 🔐 Security
+
+- API keys stored in `.env` locally and Railway environment variables in production
+- `.env` excluded from version control via `.gitignore`
+- `!pwcheck` deletes user messages containing passwords immediately
+- Calculator uses character whitelist before evaluation — no raw `eval()` on user input
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] `!portscan [ip]` — quick port scan from Discord
+- [ ] `!subdomains [domain]` — subdomain enumeration from Discord
+- [ ] `!note save/get/list` — persistent note storage per user
+- [ ] `!todo add/list/done` — task list per user
+- [ ] `!weather [city]` — live weather data
+- [ ] AI-augmented security analysis — Claude interprets scan results
+
+---
+
+## 🤝 Part of the Middle-earth Bot Collection
+
+| Bot | Character | Purpose |
+|---|---|---|
+| [🧙 GandalfBot](https://github.com/Patharx/gandalfbot) | Gandalf the Grey/White | Wisdom, riddles, lore, quests |
+| [⚔️ AragornBot](https://github.com/Patharx/aragornbot) | Aragorn/Strider | Leadership, battles, heritage |
+| [🌿 TomBot](https://github.com/Patharx/tombot) | Tom Bombadil | Cybersecurity tools, productivity |
+
+---
+
+## 👤 Author
+
+**Ryan** — [github.com/Patharx](https://github.com/Patharx)
+
+---
+
+*"Old Tom Bombadil is a merry fellow, bright blue his jacket is, and his boots are yellow!"* 🌿
